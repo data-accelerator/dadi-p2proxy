@@ -1,5 +1,5 @@
 # used to install binaries
-SN_DESTDIR=/opt/overlaybd/snapshotter
+SN_DESTDIR=/opt/dadi-p2pproxy
 
 # command
 COMMANDS=p2p

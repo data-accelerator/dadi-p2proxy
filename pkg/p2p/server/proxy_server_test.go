@@ -25,7 +25,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/util"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/util"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

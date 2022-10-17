@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/server"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/server"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/configure"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/configure"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

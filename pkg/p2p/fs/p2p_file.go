@@ -19,9 +19,9 @@ package fs
 import (
 	"io"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/util"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/util"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/rangesplit"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/rangesplit"
 
 	log "github.com/sirupsen/logrus"
 )

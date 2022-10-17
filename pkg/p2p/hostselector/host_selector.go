@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/cache"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/cache"
 )
 
 // HostPicker is an interface

@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/cache"
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/certificate"
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/configure"
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/fs"
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/hostselector"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/cache"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/certificate"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/configure"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/fs"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/hostselector"
 
 	log "github.com/sirupsen/logrus"
 )

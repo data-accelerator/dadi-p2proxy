@@ -19,7 +19,7 @@ package rangesplit
 import (
 	"errors"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/util"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/util"
 )
 
 // RangeSplit utility for split range into segments

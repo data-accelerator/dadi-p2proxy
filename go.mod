@@ -1,4 +1,4 @@
-module github.com/alibaba/accelerated-container-image
+module github.com/data-accelerator/dadi-p2proxy
 
 go 1.15
 

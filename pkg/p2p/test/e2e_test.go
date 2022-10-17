@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/server"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/server"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"

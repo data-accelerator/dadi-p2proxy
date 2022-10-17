@@ -29,9 +29,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/certificate"
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/configure"
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/util"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/certificate"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/configure"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/util"
 
 	log "github.com/sirupsen/logrus"
 )

@@ -24,8 +24,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/certificate"
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/configure"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/certificate"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/configure"
 
 	"github.com/elazarl/goproxy"
 	log "github.com/sirupsen/logrus"

@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/alibaba/accelerated-container-image/pkg/p2p/hostselector"
+	"github.com/data-accelerator/dadi-p2proxy/pkg/p2p/hostselector"
 
 	log "github.com/sirupsen/logrus"
 )

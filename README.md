@@ -34,7 +34,7 @@ The DadiP2P binary are generated in `bin`.
 
 ### Configure
 
-The default configure file is [dadip2p.yaml](https://github.com/alibaba/accelerated-container-image/blob/main/dadip2p.yaml), you can direct edit it.
+The default configure file is [dadip2p.yaml](https://github.com/data-accelerator/dadi-p2proxy/blob/main/dadip2p.yaml), you can direct edit it.
 
 ### Run
 
