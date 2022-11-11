@@ -28,7 +28,6 @@ import (
 // DeployConfig is server config
 type DeployConfig struct {
 	LogLevel    string
-	APIKey      string
 	ProxyConfig ProxyConfig
 	P2PConfig   P2PConfig
 }
@@ -44,6 +43,7 @@ type P2PConfig struct {
 	RootList       []string
 	NodeIP         string
 	DetectAddr     string
+	APIKey         string
 	ServeBySSL     bool
 	Port           int
 	MyAddr         string // not in yaml

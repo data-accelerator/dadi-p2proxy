@@ -9,9 +9,9 @@ ProxyConfig:
   # CertConfig
   CertConfig:
     # CertPath
-    CertPath: "p2pcert.pem"
+    CertPath: "ca.crt"
     # KeyPath
-    KeyPath: "p2pcert.key"
+    KeyPath: "ca.key"
 # P2PConfig
 P2PConfig:
   # Run mode, root | agent

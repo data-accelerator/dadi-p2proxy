@@ -50,13 +50,13 @@ func StartP2PServer(config *configure.DeployConfig, isRun bool) *http.Server {
 	p2pFs := fs.NewP2PFS(&fs.Config{
 		CachePool:       cachePool,
 		HostPicker:      hp,
-		APIKey:          config.APIKey,
+		APIKey:          config.P2PConfig.APIKey,
 		PrefetchWorkers: config.P2PConfig.PrefetchConfig.PrefetchThread,
 	})
 	serverHandler := newP2PServer(&Config{
 		MyAddr: config.P2PConfig.MyAddr,
 		Fs:     p2pFs,
-		APIKey: config.APIKey,
+		APIKey: config.P2PConfig.APIKey,
 	})
 	addr := fmt.Sprintf(":%d", config.P2PConfig.Port)
 	server := &http.Server{

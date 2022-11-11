@@ -46,7 +46,6 @@ var (
 func StartServer(idx int, runMode string, rootList []string, port int, serveBySSL, proxyHTTPS bool) *http.Server {
 	var config = &configure.DeployConfig{}
 	config.LogLevel = "debug"
-	config.APIKey = "dadip2p"
 	// proxy
 	config.ProxyConfig.Port = port + 100
 	config.ProxyConfig.ProxyHTTPS = proxyHTTPS
@@ -57,6 +56,7 @@ func StartServer(idx int, runMode string, rootList []string, port int, serveBySS
 	config.P2PConfig.RunMode = runMode
 	config.P2PConfig.RootList = rootList
 	config.P2PConfig.NodeIP = "127.0.0.1"
+	config.P2PConfig.APIKey = "dadip2p"
 	config.P2PConfig.DetectAddr = ""
 	config.P2PConfig.ServeBySSL = serveBySSL
 	config.P2PConfig.Port = port

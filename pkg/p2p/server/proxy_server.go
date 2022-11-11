@@ -40,9 +40,9 @@ func StartProxyServer(config *configure.DeployConfig, isRun bool) *http.Server {
 	proxy.OnRequest().DoFunc(func(req *http.Request, ctx *goproxy.ProxyCtx) (*http.Request, *http.Response) {
 		const matchPattern = ".*/v2/blobs/sha256/.*/data"
 		match1, _ := regexp.MatchString(matchPattern, req.URL.Path)
-		match2 := !strings.HasPrefix(req.URL.Path, fmt.Sprintf("/%s/", config.APIKey))
+		match2 := !strings.HasPrefix(req.URL.Path, fmt.Sprintf("/%s/", config.P2PConfig.APIKey))
 		if match1 && match2 && req.Method == http.MethodGet {
-			redirectURL := fmt.Sprintf("%s/%s/%s", config.P2PConfig.MyAddr, config.APIKey, req.URL.String())
+			redirectURL := fmt.Sprintf("%s/%s/%s", config.P2PConfig.MyAddr, config.P2PConfig.APIKey, req.URL.String())
 			header := http.Header{}
 			header.Set("Location", redirectURL)
 			resp := &http.Response{
