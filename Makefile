@@ -18,7 +18,7 @@ force:
 # build a binary from cmd
 bin/%: cmd/% force
 	@echo "$@"
-	@GOOS=linux go build -o $@ ./$<
+	@go build -o $@ ./$<
 
 install: ## install binaries from bin
 	@mkdir -p ${SN_DESTDIR}
